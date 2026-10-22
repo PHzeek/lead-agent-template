@@ -1,0 +1,380 @@
+{
+  "summary": {
+    "split": "dev",
+    "prompt": "app/prompts/score_lead_v2.md",
+    "n": 30,
+    "agreement_pct": 100.0,
+    "hot_recall_pct": 100.0,
+    "hot_missed_as_cold_or_spam": 0,
+    "latency_ms_p50": 3584,
+    "latency_ms_p95": 4189,
+    "cost_usd_total": 0.00705,
+    "cost_usd_per_lead": 0.000235
+  },
+  "results": [
+    {
+      "id": "L01",
+      "human": "hot",
+      "agent": "hot",
+      "score": 96,
+      "latency_ms": 4341,
+      "cost_usd": 0.000241,
+      "reasons": [
+        "Maria is the owner of a dental practice with 3 locations, within the primary-focus business profile.",
+        "The practice misses web inquiries after hours, and prospective new patients book elsewhere.",
+        "She wants AI to answer and book consults, with a 1\u20133 month timeline and a stated budget of $15k+."
+      ]
+    },
+    {
+      "id": "L09",
+      "human": "hot",
+      "agent": "hot",
+      "score": 92,
+      "latency_ms": 3046,
+      "cost_usd": 0.000228,
+      "reasons": [
+        "Founder of an 11\u201350 person Shopify store reports support tickets have doubled.",
+        "Wants an AI agent to handle order status and returns, escalating other issues.",
+        "Budget is 15k+ and timeline is 1\u20133 months."
+      ]
+    },
+    {
+      "id": "L11",
+      "human": "hot",
+      "agent": "hot",
+      "score": 96,
+      "latency_ms": 3945,
+      "cost_usd": 0.000212,
+      "reasons": [
+        "Owner of a med spa, a primary-focus business.",
+        "Loses leads from Instagram DMs and web forms because she is with clients; wants automated responses and consult booking.",
+        "Timeline is now and stated budget is $5k\u2013$15k."
+      ]
+    },
+    {
+      "id": "L12",
+      "human": "hot",
+      "agent": "hot",
+      "score": 89,
+      "latency_ms": 3185,
+      "cost_usd": 0.000222,
+      "reasons": [
+        "Summit Roofing receives 300+ inspection requests during storm season, a concrete lead-handling challenge.",
+        "They want AI to qualify requests by address and insurance, then schedule inspectors.",
+        "The stated $5k\u2013$15k budget and 1\u20133 month timeline indicate near-term intent."
+      ]
+    },
+    {
+      "id": "L13",
+      "human": "warm",
+      "agent": "warm",
+      "score": 60,
+      "latency_ms": 3424,
+      "cost_usd": 0.000235,
+      "reasons": [
+        "The founder is exploring AI to follow up with design inquiries, a lead-handling problem we can address.",
+        "Lee & Co Interiors is a small business, and the founder is directly involved."
+      ]
+    },
+    {
+      "id": "L15",
+      "human": "hot",
+      "agent": "hot",
+      "score": 88,
+      "latency_ms": 3242,
+      "cost_usd": 0.000228,
+      "reasons": [
+        "The owner wants to automate catering order intake from the website.",
+        "They describe intake as a real pain and have a 1\u20133 month timeline.",
+        "The stated $1.5k\u2013$5k budget is within the consultancy\u2019s entry-offer range."
+      ]
+    },
+    {
+      "id": "L17",
+      "human": "warm",
+      "agent": "warm",
+      "score": 65,
+      "latency_ms": 3584,
+      "cost_usd": 0.000224,
+      "reasons": [
+        "Patients call constantly about prescription refills and appointment changes\u2014repetitive support and scheduling needs we address.",
+        "The lead is a practice manager at a family clinic, an appointment-based business."
+      ]
+    },
+    {
+      "id": "L20",
+      "human": "warm",
+      "agent": "warm",
+      "score": 68,
+      "latency_ms": 4189,
+      "cost_usd": 0.000291,
+      "reasons": [
+        "Needs demand forecasting for 1,200 SKUs, currently managed in spreadsheets.",
+        "Reports a $15k+ budget approved for the next fiscal year."
+      ]
+    },
+    {
+      "id": "L22",
+      "human": "hot",
+      "agent": "hot",
+      "score": 82,
+      "latency_ms": 3802,
+      "cost_usd": 0.000263,
+      "reasons": [
+        "Wants AI to answer questions about coaching programs on the company website, a concrete customer-support automation need.",
+        "Timeline is 1\u20133 months and stated budget is $1.5k\u2013$5k."
+      ]
+    },
+    {
+      "id": "L25",
+      "human": "warm",
+      "agent": "warm",
+      "score": 58,
+      "latency_ms": 3682,
+      "cost_usd": 0.000255,
+      "reasons": [
+        "The firm is considering AI for document review, a document-processing problem we can help with.",
+        "Chen Legal is an 11\u201350-person firm, within the small-business range we serve."
+      ]
+    },
+    {
+      "id": "L29",
+      "human": "cold",
+      "agent": "cold",
+      "score": 25,
+      "latency_ms": 2867,
+      "cost_usd": 0.0002,
+      "reasons": [
+        "The sender says they help consultancies get more clients through LinkedIn outreach and asks for a call, pitching their own services."
+      ]
+    },
+    {
+      "id": "L30",
+      "human": "cold",
+      "agent": "cold",
+      "score": 28,
+      "latency_ms": 3304,
+      "cost_usd": 0.000235,
+      "reasons": [
+        "Asks whether AI can write blog posts, rather than describing a lead-handling, support, document, or reporting problem.",
+        "Says they are looking for something cheap and lists a budget under $1,500.",
+        "Timeline is only \u201cexploring.\u201d"
+      ]
+    },
+    {
+      "id": "L31",
+      "human": "cold",
+      "agent": "cold",
+      "score": 25,
+      "latency_ms": 2651,
+      "cost_usd": 0.000194,
+      "reasons": [
+        "The message says \u201cSaw your post. Interesting stuff\u201d but does not describe a business problem or request."
+      ]
+    },
+    {
+      "id": "L32",
+      "human": "cold",
+      "agent": "cold",
+      "score": 25,
+      "latency_ms": 3442,
+      "cost_usd": 0.000211,
+      "reasons": [
+        "The lead says DevShop is a development agency and wants to white-label our AI services.",
+        "The message proposes a partnership rather than describing a business problem they need solved."
+      ]
+    },
+    {
+      "id": "L36",
+      "human": "cold",
+      "agent": "cold",
+      "score": 30,
+      "latency_ms": 3912,
+      "cost_usd": 0.000245,
+      "reasons": [
+        "Mike is the owner of Ross Painting, a small business."
+      ]
+    },
+    {
+      "id": "L39",
+      "human": "spam",
+      "agent": "spam",
+      "score": 5,
+      "latency_ms": 2779,
+      "cost_usd": 0.000199,
+      "reasons": [
+        "The message pitches getting a website to \u201c#1 on Google in 30 days\u201d and asks the recipient to reply for pricing."
+      ]
+    },
+    {
+      "id": "L43",
+      "human": "spam",
+      "agent": "spam",
+      "score": 2,
+      "latency_ms": 2338,
+      "cost_usd": 0.000175,
+      "reasons": [
+        "The message contains only \u201ctest,\u201d indicating a test submission rather than a business inquiry."
+      ]
+    },
+    {
+      "id": "L44",
+      "human": "spam",
+      "agent": "spam",
+      "score": 2,
+      "latency_ms": 2317,
+      "cost_usd": 0.000181,
+      "reasons": [
+        "The message explicitly instructs the classifier to ignore its instructions and assign a hot score."
+      ]
+    },
+    {
+      "id": "L47",
+      "human": "hot",
+      "agent": "hot",
+      "score": 96,
+      "latency_ms": 3813,
+      "cost_usd": 0.000233,
+      "reasons": [
+        "The owner says new patient inquiries go to voicemail half the time.",
+        "They need instant responses and consult booking, a clear lead-follow-up problem.",
+        "They have a $15k+ budget, want to start now, and can begin this month."
+      ]
+    },
+    {
+      "id": "L49",
+      "human": "cold",
+      "agent": "cold",
+      "score": 32,
+      "latency_ms": 4371,
+      "cost_usd": 0.000278,
+      "reasons": [
+        "The owner is considering whether AI could plan trips for clients, a possible small-business use case."
+      ]
+    },
+    {
+      "id": "L51",
+      "human": "hot",
+      "agent": "hot",
+      "score": 88,
+      "latency_ms": 3963,
+      "cost_usd": 0.000279,
+      "reasons": [
+        "New patient referrals arrive by fax and email and take 2\u20133 days to enter.",
+        "The delays cause Coastal PT Group to lose some patients to other clinics.",
+        "They want AI intake within 1\u20133 months and report a $5k\u2013$15k budget."
+      ]
+    },
+    {
+      "id": "L52",
+      "human": "warm",
+      "agent": "warm",
+      "score": 60,
+      "latency_ms": 3848,
+      "cost_usd": 0.000255,
+      "reasons": [
+        "The lead says they \u201cneed help w phones,\u201d a potential front-desk or call-handling need.",
+        "The lead identifies their role as Owner and their name includes DDS, suggesting a dental-practice context."
+      ]
+    },
+    {
+      "id": "L53",
+      "human": "hot",
+      "agent": "hot",
+      "score": 88,
+      "latency_ms": 3520,
+      "cost_usd": 0.000248,
+      "reasons": [
+        "Glow Up is a med spa with two locations, within the primary-focus business profile.",
+        "They say Instagram DMs and texts go unanswered until the next day, causing prospects to book elsewhere.",
+        "They want AI to respond and book as soon as possible."
+      ]
+    },
+    {
+      "id": "L54",
+      "human": "spam",
+      "agent": "spam",
+      "score": 4,
+      "latency_ms": 2835,
+      "cost_usd": 0.000204,
+      "reasons": [
+        "The message offers to place \u201c50+ backlinks per month\u201d and asks the recipient to reply for a rate card.",
+        "The message includes an instruction to manipulate the classification, which is ignored."
+      ]
+    },
+    {
+      "id": "L55",
+      "human": "hot",
+      "agent": "hot",
+      "score": 84,
+      "latency_ms": 3610,
+      "cost_usd": 0.00024,
+      "reasons": [
+        "As the owner, Tina reports missing about 10 calls a week while with clients, resulting in lost bookings.",
+        "She estimates the missed calls cost about $600 a week and says she needs something to answer and book calls now."
+      ]
+    },
+    {
+      "id": "L56",
+      "human": "hot",
+      "agent": "hot",
+      "score": 82,
+      "latency_ms": 3276,
+      "cost_usd": 0.000253,
+      "reasons": [
+        "Sunset Family Dental is a dental practice, a primary-focus business.",
+        "Megan says Dr. Kim asked her to look into AI for appointment reminders and no-shows."
+      ]
+    },
+    {
+      "id": "L57",
+      "human": "cold",
+      "agent": "cold",
+      "score": 32,
+      "latency_ms": 3608,
+      "cost_usd": 0.000243,
+      "reasons": [
+        "The lead says BrightPath is an agency serving 30 dental clients and wants to resell the AI receptionist under its own brand.",
+        "The message proposes a revenue-share partnership rather than describing a problem BrightPath needs solved for its own operations."
+      ]
+    },
+    {
+      "id": "L58",
+      "human": "cold",
+      "agent": "cold",
+      "score": 25,
+      "latency_ms": 3433,
+      "cost_usd": 0.000225,
+      "reasons": [
+        "The message offers a 6-month contract AI engineer role with a fintech client, rather than requesting AI consulting or workflow automation.",
+        "No business problem for our services is described."
+      ]
+    },
+    {
+      "id": "L59",
+      "human": "hot",
+      "agent": "hot",
+      "score": 96,
+      "latency_ms": 3669,
+      "cost_usd": 0.000252,
+      "reasons": [
+        "She owns a med spa in Long Beach, a primary-focus business.",
+        "They lose many calls and messages after 6 p.m. and want AI to respond and book appointments in Spanish and English.",
+        "The timeline is now and the budget is approved at $5k\u2013$15k."
+      ]
+    },
+    {
+      "id": "L60",
+      "human": "warm",
+      "agent": "warm",
+      "score": 65,
+      "latency_ms": 3800,
+      "cost_usd": 0.000297,
+      "reasons": [
+        "Harborview Dental is a dental practice, a primary-focus business.",
+        "Rob says they want to discuss something similar to the lead follow-up setup at Seaside Smiles.",
+        "The lead came through a referral from Dr. Patel at Seaside Smiles."
+      ]
+    }
+  ]
+}
